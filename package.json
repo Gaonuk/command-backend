@@ -1,0 +1,24 @@
+{
+  "name": "command-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db": "sst shell drizzle-kit",
+    "db:studio": "sst shell drizzle-kit studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-rds-data": "^3.614.0",
+    "drizzle-orm": "^0.32.0",
+    "sst": "ion",
+    "viem": "^2.17.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/aws-lambda": "8.10.141",
+    "drizzle-kit": "^0.23.0"
+  }
+}
